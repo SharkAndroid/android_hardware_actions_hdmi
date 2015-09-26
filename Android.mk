@@ -21,8 +21,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := \
 	hdmi.cpp
 
-LOCAL_SHARED_LIBRARIES := \
-	liblog
+LOCAL_SHARED_LIBRARIES := liblog
 
 LOCAL_C_INCLUDES += \
 	device/ainol/gs702a-common/includes/
