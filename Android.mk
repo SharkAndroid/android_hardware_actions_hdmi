@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # HDMI driver for ATM702X
-ifeq ($(BOARD_HAVE_ACTIONS_HDMI), true)
+ifeq ($(strip $(BOARD_HAVE_ACTIONS_HDMI)), true)
 
 LOCAL_PATH := $(call my-dir)
 
